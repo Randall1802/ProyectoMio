@@ -1,0 +1,37 @@
+.body{
+    background-color: white;
+}
+
+.container-fluid{
+    text-align: center;
+    background-color: #9ad5f7;
+}
+
+.centrados{
+    text-align: center;
+}
+
+a.navbar-brand{
+    color: black;
+}
+
+#funcionan{
+    background-color:rgb(238, 51, 51);
+    color: white;
+}
+
+.negritas{
+    color:black;
+}
+
+#final{
+    background-color: #9ad5f7;
+}
+
+link{
+    color: black;
+}
+
+a:hover{
+    color:red;
+}

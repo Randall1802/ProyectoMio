@@ -1,0 +1,25 @@
+.body{
+    background-color: #f8f8f8;
+}
+
+.center{
+    text-align:center;
+}
+
+
+/*
+.primero{
+    color: #ffc107;
+}
+
+.segundo{
+    background-color: silver;
+}
+*/
+
+.tercero{
+    background-color: goldenrod;
+}
+.bg-custom{
+    background-color: #ffc107;
+}

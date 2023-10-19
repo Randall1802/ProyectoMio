@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleIndex.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Mi página oficial</title>
+</head>
+<body class="body">
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="col-1">
+                  <a class="navbar-brand" href="https://f1.com"><img src="src/f1Logo.jpg" alt="Logo" width="100" height="60" class="d-inline-block"></a>
+                </div>
+                <div class="col-10">
+                  <h4>Fórmula 1</h4>
+                </div>
+              </div>
+            </div>
+                           
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"   aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Aquí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://f1.com">Página oficial de la F1</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Más
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="about.html">Acerca de...</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+      <h2 class="centrados">Estadísticas sobre la F1</h2>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/f12008.jpg" class="d-block w-100" alt="..." width="800" height="400">
+        </div>
+        <div class="carousel-item ">
+          <img src="src/f12009.jpg" class="d-block w-100" alt="..." width="800" height="400">
+        </div>
+        <div class="carousel-item ">
+          <img src="src/f12010.avif" class="d-block w-100" alt="..." width="800" height="400">
+        </div>
+        <div class="carousel-item ">
+          <img src="src/f12012.jpg" class="d-block w-100" alt="..." width="800" height="400">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--
+          <div class="container"> 
+        <div class="row">
+            <img src="src/f12012.jpg" alt="brazil 2012" width="400" height="300">
+        </div>
+    </div>
+    -->
+
+    <div class="container">
+        <h3 class="centrados">Actualizado al 5 de septiembre del 2023</h4>
+        <p class="centrados">Solo se mencionan 6 temporadas, porque si no, sería mucho jale pa mí.</p>
+    </div>
+    <div class="container-fluid" id="funcionan">
+        <p class="centrados">Páginas funcionando: 2012, 2010 y 2008</p>
+    </div>
+    <div class="container">
+        <h4 class="centrados">¿Qué temporada deseas ver?</h5>
+    </div>
+
+    <div class="container-fluid" place-items="center">
+        <div class="row centrados">
+            <div class="card col-lg-2" >
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2007</h5>
+                  <a href="Temporadas/2007.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+            <div class="card col-lg-2">
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2008</h5>
+                  <a href="Temporadas/2008.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+            <div class="card col-lg-2" >
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2009</h5>
+                  <a href="Temporadas/2009.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+            <div class="card col-lg-2" >
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2010</h5>
+                  <a href="Temporadas/2010.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+            <div class="card col-lg-2" >
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2011</h5>
+                  <a href="Temporadas/2011.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+            <div class="card col-lg-2" >
+                <div class="card-body">
+                  <h5 class="card-title">Temporada 2012</h5>
+                  <a href="Temporadas/2012.html" class="btn btn-secondary">Ir hacia allá</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="final">
+        <p><b>¿Te gustaría consultar información actual sobre la F1? Prueba el siguiente link</b></p>
+        <a id="link" href="https://lat.motorsport.com/">Motorsport.com Latinoamérica</a>
+    </div>
+</body>
+</html>
